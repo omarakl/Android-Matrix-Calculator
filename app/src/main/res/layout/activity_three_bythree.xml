@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".twoBytwo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/apf_power"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:editable="false"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView12"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <EditText
+            android:id="@+id/afp4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toTopOf="@+id/et9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/et5"
+            app:layout_constraintTop_toBottomOf="@+id/afp2" />
+
+        <EditText
+            android:id="@+id/afp3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/et8"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et4" />
+
+        <EditText
+            android:id="@+id/afp2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toTopOf="@+id/afp4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/et2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <EditText
+            android:id="@+id/afp1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toTopOf="@+id/et4"
+            app:layout_constraintEnd_toStartOf="@+id/et2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="287dp"
+            android:layout_height="143dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/three"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toTopOf="@+id/afp3"
+            app:layout_constraintEnd_toStartOf="@+id/et5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/afp1" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toTopOf="@+id/et5"
+            app:layout_constraintEnd_toStartOf="@+id/afp2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/afp1"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <EditText
+            android:id="@+id/et8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/et9"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/afp3"
+            app:layout_constraintTop_toBottomOf="@+id/et5" />
+
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toTopOf="@+id/et8"
+            app:layout_constraintEnd_toStartOf="@+id/afp4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/et4"
+            app:layout_constraintTop_toBottomOf="@+id/et2" />
+
+        <EditText
+            android:id="@+id/et9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_borders"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            android:editable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/et8"
+            app:layout_constraintTop_toBottomOf="@+id/afp4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteY="365dp">
+
+        <EditText
+            android:id="@+id/divide_Num"
+            android:layout_width="42dp"
+            android:layout_height="36dp"
+            android:background="@drawable/edit_text_borders"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/afp_mltp"
+            app:layout_constraintTop_toBottomOf="@+id/dividebyButton" />
+
+        <Button
+            android:id="@+id/dividebyButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Divide by"
+            app:backgroundTint="#040303"
+            app:layout_constraintBottom_toTopOf="@+id/divide_Num"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/multiplyByButton_op"
+            app:layout_constraintTop_toBottomOf="@+id/DeterminantButton" />
+
+        <Button
+            android:id="@+id/DeterminantButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Determinant"
+            app:backgroundTint="#040303"
+            app:layout_constraintBottom_toTopOf="@+id/dividebyButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/transposeButton_op"
+            app:layout_constraintTop_toBottomOf="@+id/InverseButton" />
+
+        <Button
+            android:id="@+id/InverseButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Inverse"
+            app:backgroundTint="#040303"
+            app:layout_constraintBottom_toTopOf="@+id/DeterminantButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/calculateButton_op"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/afp_mltp"
+            android:layout_width="42dp"
+            android:layout_height="36dp"
+            android:background="@drawable/edit_text_borders"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textColor="#EF4646"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/divide_Num"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/multiplyByButton_op" />
+
+        <Button
+            android:id="@+id/calculateButton_op"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Calculate"
+            app:backgroundTint="#040303"
+            app:layout_constraintBottom_toTopOf="@+id/transposeButton_op"
+            app:layout_constraintEnd_toStartOf="@+id/InverseButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/transposeButton_op"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Transpose"
+            app:backgroundTint="#070707"
+            app:layout_constraintBottom_toTopOf="@+id/multiplyByButton_op"
+            app:layout_constraintEnd_toStartOf="@+id/DeterminantButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calculateButton_op" />
+
+        <Button
+            android:id="@+id/multiplyByButton_op"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Multiply by"
+            app:backgroundTint="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/afp_mltp"
+            app:layout_constraintEnd_toStartOf="@+id/dividebyButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transposeButton_op" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

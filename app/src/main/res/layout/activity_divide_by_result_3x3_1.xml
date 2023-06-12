@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".divideBy_result_3x3_1">
+
+    <EditText
+        android:id="@+id/xc9"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xc8"
+        app:layout_constraintTop_toBottomOf="@+id/xc6" />
+
+    <EditText
+        android:id="@+id/xc8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/xc9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xc7"
+        app:layout_constraintTop_toBottomOf="@+id/xc5" />
+
+    <EditText
+        android:id="@+id/xc7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/xc8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xc4" />
+
+    <EditText
+        android:id="@+id/xc6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/xc9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xc5"
+        app:layout_constraintTop_toBottomOf="@+id/xc3" />
+
+    <EditText
+        android:id="@+id/xc5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/xc8"
+        app:layout_constraintEnd_toStartOf="@+id/xc6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xc4"
+        app:layout_constraintTop_toBottomOf="@+id/xc2" />
+
+    <EditText
+        android:id="@+id/xc4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/xc7"
+        app:layout_constraintEnd_toStartOf="@+id/xc5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xc1" />
+
+    <EditText
+        android:id="@+id/xc3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/xc6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xc2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+    <EditText
+        android:id="@+id/xc2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/xc5"
+        app:layout_constraintEnd_toStartOf="@+id/xc3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/xc1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="383dp"
+        android:layout_height="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/result"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/xc1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/xc4"
+        app:layout_constraintEnd_toStartOf="@+id/xc2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView28" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

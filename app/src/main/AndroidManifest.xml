@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.matrix">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Matrix">
+        <activity
+            android:name=".inverse_result_4x4_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inverse_result_3x3_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".determinant_result_4x4_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".divideBy_result_4x4_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".determinant_result_3x3_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".divideBy_result_3x3_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".determinant_result_2x2_1"
+            android:screenOrientation="portrait" />
+        <activity android:name=".divideBy_result_2x2_1" />
+        <activity
+            android:name=".multiply_result_4x4_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".subtract_result_4x4_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".add_result_4x4_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".multuply_result_3x3_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".subtract_result_3x3_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".add_result_3x3_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".multiply_result_2x2_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".subtract_result_2x2_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".add_result_2x2_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".multBy_result_4x4_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transpose_result_4x4_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calculate_result_4x4_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".multBy_result_3x3_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transpose_result_3x3_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calculate_result_3x3_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".multBy_result_2x2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inverse_result_2x2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transpose_result_2x2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calculate_result_2x2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fourByfour_for_two"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".threeBythree_for_two"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".twoBytwo_for_two"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".fourByfour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".threeBythree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".twoBytwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".choose_matrics_size_for_two"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".choose_matrix_size_for_one"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".choose_matrices_number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

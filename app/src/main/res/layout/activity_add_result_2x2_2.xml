@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_result_2x2_2">
+
+    <EditText
+        android:id="@+id/y4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/opButton2x2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/y3"
+        app:layout_constraintTop_toBottomOf="@+id/y2" />
+
+    <EditText
+        android:id="@+id/y3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/opButton2x2"
+        app:layout_constraintEnd_toStartOf="@+id/y4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/y1" />
+
+    <EditText
+        android:id="@+id/y2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/y4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/y1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="375dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toTopOf="@+id/y2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/result" />
+
+    <EditText
+        android:id="@+id/y1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_text_borders"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        android:textColor="#EF4646"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/y3"
+        app:layout_constraintEnd_toStartOf="@+id/y2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <Button
+        android:id="@+id/opButton2x2"
+        android:layout_width="155dp"
+        android:layout_height="51dp"
+        android:background="@drawable/rounded_corners"
+        android:text="perform opertaions"
+        android:textSize="12sp"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/y4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choose_matrics_size_for_two">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="360dp"
+        android:layout_height="157dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pic"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:id="@+id/twoBytwo"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:text="2 x 2"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#0B0A0A"
+        app:layout_constraintBottom_toTopOf="@+id/threeBythree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/threeBythree"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:text="3 x 3"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#090707"
+        app:layout_constraintBottom_toTopOf="@+id/fourByfour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/twoBytwo" />
+
+    <Button
+        android:id="@+id/fourByfour"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:text="4 x 4"
+        android:background="@drawable/rounded_corners"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/threeBythree" />
+</androidx.constraintlayout.widget.ConstraintLayout>
